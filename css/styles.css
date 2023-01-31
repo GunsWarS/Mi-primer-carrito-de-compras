@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Aboreto", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.contenedor {
+  background-color: aquamarine;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contenedor_caja1,
+.contenedor_caja2,
+.contenedor_caja3 {
+  margin: 20px;
+  float: left;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.contenedor_carrito {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 25px;
+  margin: 15px;
+}
+
+#img-carrito {
+  height: 40px;
+  width: 40px;
+}
+
+th {
+  padding: 20px;
+}
+
+.submenu {
+  position: relative;
+  list-style: none;
+}
+
+.submenu #carrito {
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 30px;
+  border: 3px solid black;
+  min-width: 200px;
+  min-height: 300px;
+}
+
+.boton_vaciarcarrito {
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  font-family: "Aboreto", cursive;
+}
+
+.borrar-frutas {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+a {
+  font-size: 17px;
+  font-family: "Aboreto", cursive;
+  font: bold;
+}
+
+.agregar-carrito {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2px;
+}
+.agregar-carrito:hover {
+  background-color: aqua;
+}

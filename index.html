@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <title>Carrito de compras</title>
+</head>
+
+<body>
+    <h1>Fruver</h1>
+
+    <!-- ------------------------------------------CARRITO------------------------------------------------------ -->
+    <div class="contenedor_carrito">
+        <ul>
+            <li class="submenu">
+                <img src="img/cart.png" id="img-carrito">
+                <div id="carrito">
+
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                                <th>Eliminar</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                    <a href="#" id="vaciar-carrito" class="boton_vaciarcarrito">Vaciar Carrito</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+
+    <div id="lista-frutas" class="contenedor">
+        <div class="row">
+            <div class="contenedor_caja1">
+                <h4>Aguacate</h4>
+                <img src="./img/aguacate.jpg" class="imagen-frutas" alt="img aguacate">
+                <p class="precio"><span>Precio $6.000</span></p>
+                <a href="#" class="agregar-carrito" data-id="1">Agregar al carrito</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contenedor_caja2">
+                <h4>Bananos</h4>
+                <img src="./img/platano.jpg.webp" class="imagen-frutas" alt="img platano">
+                <p class="precio"><span>Precio $4.000</span></p>
+                <a href="#" class="agregar-carrito" data-id="2">Agregar al carrito</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contenedor_caja3">
+                <h4>Sandia</h4>
+                <img src="./img/sandia.jfif" class="imagen-frutas" alt="img sandia">
+                <p class="precio"><span>Precio $2.000</span></p>
+                <a href="#" class="agregar-carrito" data-id="3">Agregar al carrito</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+<script src="./js/app.js"></script>
+
+</html>
